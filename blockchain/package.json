@@ -1,0 +1,22 @@
+{
+  "name": "lox-blockchain",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mock": "npx hardhat run scripts/deployMockOracle.js --network sepolia"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "@nomiclabs/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.7.0",
+    "chai": "^4.3.7",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@chainlink/contracts": "^0.4.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  }
+}
