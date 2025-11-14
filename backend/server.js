@@ -83,3 +83,5 @@ app.post('/api/mining/sign', async (req, res) => {
 });
 
 app.listen(PORT, () => console.log('API running on', PORT));
+const miningRoutes = require('./api/miningRoutes');
+app.use('/mining', miningRoutes);
