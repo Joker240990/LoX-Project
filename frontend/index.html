@@ -1,0 +1,5 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>LoX Dashboard</title></head>
+  <body><div id="root"></div><script src="./index.jsx"></script></body>
+</html>
