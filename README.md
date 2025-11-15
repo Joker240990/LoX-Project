@@ -23,3 +23,15 @@ This repository contains the LoX ecosystem:
 - Never commit .env with secrets
 - Use multisig (Gnosis Safe) for owner on mainnet
 - Run external audit before mainnet deployment
+# LoX Project - Lucifer Coin Ecosystem
+
+This repo contains the full LoX ecosystem:
+- blockchain/: smart contracts + Hardhat scripts
+- backend/: Node/Express API (auth, KYC stub, mining)
+- frontend/: React dashboard (minimal)
+- mobile/: React Native (Expo) skeleton
+- games/: HTML5 prototypes
+- mining/: miner clients
+- docs/: whitepaper & notes
+
+Follow README sections to run each part locally.
