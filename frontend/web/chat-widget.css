@@ -1,0 +1,20 @@
+#chat-box {
+  width: 350px;
+  height: 450px;
+  background: #111;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  font-family: Arial;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  background: #222;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
